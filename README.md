@@ -1,16 +1,127 @@
-# React + Vite
+📱 Device Compare – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Device Compare is a modern React + Vite web application that allows users to compare mobile phones and laptops side-by-side based on specifications, features, and performance metrics.
 
-Currently, two official plugins are available:
+This repository contains the frontend client, built with a focus on performance, scalability, smooth animations, and clean UI architecture.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Tech Stack
+Core
 
-## React Compiler
+React 19
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Vite
 
-## Expanding the ESLint configuration
+React Router DOM
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Styling
+
+Tailwind CSS 4
+
+Lucide React
+
+Remix Icon
+
+Animations & UX
+
+GSAP
+
+@gsap/react
+
+Framer Motion
+
+Lenis (Smooth scrolling)
+
+Data Handling
+
+Axios
+
+Performance Optimization
+
+React Virtuoso (virtualized rendering for large lists)
+
+Code Quality
+
+ESLint
+
+✨ Key Features
+
+🔍 Compare Mobiles & Laptops side-by-side
+
+⚡ Fast Vite-powered development & optimized production builds
+
+🎯 Smooth animations with GSAP & Framer Motion
+
+🧭 Dynamic routing with React Router
+
+📱 Fully responsive UI using Tailwind CSS
+
+🚀 Optimized rendering using virtualization
+
+🌊 Smooth scrolling experience using Lenis
+
+🔗 REST API integration with Axios
+
+📦 Installation
+
+Clone the repository:
+
+git clone <your-frontend-repo-url>
+cd device-comparison
+
+Install dependencies:
+
+npm install
+
+🛠️ Available Scripts
+Start Development Server
+npm run dev
+
+Runs the app in development mode.
+
+Build for Production
+npm run build
+
+Creates an optimized production build.
+
+Preview Production Build
+npm run preview
+
+Serves the production build locally.
+
+Lint Code
+npm run lint
+
+Runs ESLint for code quality checks.
+
+📂 Project Structure (Recommended)
+device-comparison/
+│── src/
+│ ├── components/
+│ ├── pages/
+│ ├── utils/
+│ ├── context/
+│ └── app.jsx
+│── public/
+│── index.html
+│── package.json
+
+BASE_URL
+
+BASE_URL=http://localhost://port of backend
+
+🎯 Performance & Architecture Decisions
+
+Vite for faster HMR and optimized bundling
+
+Virtualized lists (React Virtuoso) for handling large device datasets
+
+Smooth scrolling (Lenis) to improve UX feel
+
+GSAP + Framer Motion for advanced animation control
+
+Clean component-based architecture for scalability
+
+👨‍💻 Author
+
+Ankit Dhiman
+MERN Stack Developer
